@@ -1,0 +1,8 @@
+body, html, h1, h2, h3, div, header, footer, section, p, a, img, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}

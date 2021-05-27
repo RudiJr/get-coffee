@@ -1,0 +1,22 @@
+.main-nav {
+    padding-top: 2.19rem;
+    padding-bottom: 2.19rem;
+    padding-right: 10rem;
+}
+.nav-items{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1.13rem;
+    line-height: 1.54rem;
+    text-decoration: none;
+    padding-right: 3.69rem;
+    color: #242424;
+}
+
+.nav-items.-right {
+    padding-right: 0;
+}
+
+.nav-items:hover {
+    color: #C95E20;
+}
