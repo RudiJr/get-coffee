@@ -1,0 +1,28 @@
+.scroll-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "text" 
+    "scroll";
+    justify-items: center;
+}
+
+.main-title.-second {
+    font-family: inherit;
+    font-size: 1.13rem;
+    line-height: 1.54rem;
+    padding-top: 7.08rem;
+    padding-bottom: 0.57rem;
+    padding-left: 0;
+    grid-area: text;
+    color: #000;
+}
+
+.scroll {
+ grid-area: scroll;
+ padding-bottom: 5.19rem;
+}
+/*
+.align-scroll {
+  
+}
+*/
