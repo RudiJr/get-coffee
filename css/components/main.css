@@ -27,6 +27,9 @@
     "btn";
     background-image: url(https://rudijr.github.io/get-coffee/assets/forma1.svg);
     background-repeat: no-repeat;
+    background-position-x: -8.72rem;
+    background-position-y: 7.48rem;
+    padding-bottom: 9rem;
 }
 
 .order-btn {
@@ -65,3 +68,4 @@
     background-image: url(https://rudijr.github.io/get-coffee/assets/forma2.svg);
     background-repeat: no-repeat;
 }
+
