@@ -23,7 +23,10 @@
 .main-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "txt" "btn";
+    grid-template-areas: "txt" 
+    "btn";
+    background-image: url(https://rudijr.github.io/get-coffee/assets/forma1.svg);
+    background-repeat: no-repeat;
 }
 
 .order-btn {
@@ -58,12 +61,7 @@
     padding-right: 0.94rem;
 }
 
-.bg-svgRight {
-    background-image: url(/assets/forma1.svg);
-    background-repeat: no-repeat;
-}
-
-.bg-svgLeft {
-    background-image: url(/assets/forma2.svg);
+.bg-svg {
+    background-image: url(https://rudijr.github.io/get-coffee/assets/forma2.svg);
     background-repeat: no-repeat;
 }
