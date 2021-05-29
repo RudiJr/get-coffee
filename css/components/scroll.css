@@ -21,3 +21,17 @@
  grid-area: scroll;
  padding-bottom: 5.19rem;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .scroll-center {
+       display: none;
+    }
+    .main-title.-second {
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    
+}
