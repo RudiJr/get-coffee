@@ -20,3 +20,20 @@
 .nav-items:hover {
     color: #C95E20;
 }
+
+@media only screen and (max-width: 992px) {
+    .main-nav {
+        padding-top: 0;
+        padding-bottom: 1rem;
+        padding-right: 0;
+        grid-area: nav;
+    }
+    .nav-items{
+        font-size: 1.30rem;
+        line-height: 1.70rem;
+        padding-right: 1rem;
+        padding-left: 2rem;
+    }
+
+    
+}

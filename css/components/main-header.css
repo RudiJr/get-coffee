@@ -9,3 +9,20 @@
     padding-bottom: 1.76rem;
     padding-left: 10rem;
 }
+
+@media only screen and (max-width: 992px) {
+    .main-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "logo" 
+        "nav";
+        justify-content: unset;
+        justify-items: center;
+    }
+    .logo {
+        padding-top: 0.82rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        grid-area: logo;
+    }
+}
