@@ -26,3 +26,10 @@
         grid-area: logo;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .logo {
+        width: 150px;
+        height: 33px;
+    }
+}
