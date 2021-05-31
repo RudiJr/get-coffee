@@ -107,12 +107,11 @@
     }
     .bg-svg {
         position: absolute;
-        width: 500.38px;
+        width: 350px;
         height: 358.11px;
-       padding-top: 9rem;
-       left: 380.71px;
-        top: 580px; 
-        transform: rotate(-9.27deg);
+        padding-top: 9rem;
+        right: 1px;
+        top: 570px;
     }
     .order-btn {
         font-size: 1.6rem;
@@ -124,5 +123,52 @@
         padding-left: 0;
         padding-top: 27.44rem;
         padding-bottom: 4.45rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-title {
+        font-size: 1.80rem;
+        line-height: 2.80rem;
+    }
+    .main-content {
+        background-position-x: -12.80rem;
+    }
+    .bg-svg {
+        width: 320px;
+        height: 340px;
+        top: 590px;
+    }
+    .order-btn {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-title {
+        font-size: 1.25rem;
+        line-height: 1.70rem;
+    }
+    .main-content {
+        background-position-x: -14.30rem;
+        background-position-y: 2.48rem;
+    }
+    .bg-svg {
+        position: absolute;
+        width: 260px;
+        height: 340px;
+        right: 1px;
+        top: 500px;
+    }
+    .order-btn {
+        font-size: 1.13rem;
+        line-height: 2rem;
+        width: 239px;
+        height: 49px;
+    }
+    .network-align {
+        padding-top: 27.44rem;
+        padding-bottom: 3.45rem;
     }
 }

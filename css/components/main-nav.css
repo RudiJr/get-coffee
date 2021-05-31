@@ -34,6 +34,13 @@
         padding-right: 1rem;
         padding-left: 2rem;
     }
+}
 
-    
+@media only screen and (max-width: 576px) {
+    .nav-items{
+        font-size: 0.88rem;
+        line-height: 1.20rem;
+        padding-right: 2rem;
+        padding-left: 0;
+    }
 }
