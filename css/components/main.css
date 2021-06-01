@@ -172,3 +172,16 @@
         padding-bottom: 3.45rem;
     }
 }
+
+@media only screen and (max-width: 440px) {
+    .bg-svg {
+        position: absolute;
+        width: 200px;
+        height: 320px;
+        right: 1px;
+        top: 510px;
+    }
+    .main-content {
+        background-position-x: -18.50rem;
+    }
+}
